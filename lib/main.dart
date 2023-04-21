@@ -1,4 +1,6 @@
-import 'package:app1/page1.dart';
+import 'package:app1/BMIResultScreen.dart';
+import 'package:app1/BMIScrean.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,11 +14,12 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
       ),
-      home: page()
+      home:BMIScrean()
     );
   }
 }
